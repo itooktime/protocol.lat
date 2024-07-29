@@ -2,7 +2,12 @@
 module.exports = {
   content: ["index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+        'courier': ['Courier New', 'monospace'],
+      },
+    },
   },
   plugins: [],
 }
