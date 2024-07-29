@@ -5,7 +5,7 @@
         <title>protocol.lat</title>
     </head>
     <body class="">
-        haha took your ip LOL: 
+        <h1>protocol.lat</h1>
     </body>
     <script>
         fetch('https://api.ipify.org/?format=json')
@@ -13,7 +13,7 @@
             .then(data => {
                 const ipAddress = data.ip;
                 console.log(ipAddress);
-                document.body.innerHTML = `haha took your ip LOL: ${ipAddress}`;
+                document.body.innerHTML = `ip: ${ipAddress}`;
             })
             .catch(error => {
                 console.error('Error:', error);
