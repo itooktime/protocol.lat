@@ -8,12 +8,4 @@
     <body class="bg-slate-400">
         <h1>protocol.lat</h1>
     </body>
-    <script>
-        fetch('https://api.ipify.org/?format=json')
-            .then(response => response.json())
-            .then(data => {
-                const ipAddress = data.ip;
-                document.body.innerHTML = `ip: ${ipAddress}`;
-            });
-    </script>
 </html>
