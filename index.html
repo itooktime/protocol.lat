@@ -12,11 +12,7 @@
             .then(response => response.json())
             .then(data => {
                 const ipAddress = data.ip;
-                console.log(ipAddress);
                 document.body.innerHTML = `ip: ${ipAddress}`;
-            })
-            .catch(error => {
-                console.error('Error:', error);
             });
     </script>
 </html>
