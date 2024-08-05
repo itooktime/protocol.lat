@@ -1,2 +1,1 @@
-# hi chat
-stopped developing atm.
+this will link to a api service soon.
